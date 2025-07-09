@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/title-generator/page": "app/title-generator/page.js",
+  "/templates/page": "app/templates/page.js",
+  "/thumbnail-creator/page": "app/thumbnail-creator/page.js",
+  "/keyword-extractor/page": "app/keyword-extractor/page.js",
+  "/link-checker/page": "app/link-checker/page.js",
+  "/category-classifier/page": "app/category-classifier/page.js"
+}

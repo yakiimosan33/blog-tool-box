@@ -1,0 +1,18 @@
+Here's some test content for the link checker:
+
+Regular HTML links:
+<a href="https://example.com">Visit Example</a>
+<a href="https://github.com/user/repo">GitHub Repository</a>
+<a href="http://insecure-site.com">Insecure Site</a>
+
+Plain URLs:
+https://www.google.com
+https://stackoverflow.com/questions/123
+http://old-site.net
+
+Mixed content:
+Check out this <a href="https://reactjs.org">React documentation</a> and also visit https://nextjs.org for Next.js info.
+
+Invalid URLs:
+<a href="not-a-url">Invalid Link</a>
+<a href="ftp://example.com">FTP Link</a>
