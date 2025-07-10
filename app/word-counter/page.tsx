@@ -114,6 +114,7 @@ export default function WordCounterPage() {
                   disabled={!content.trim()}
                   className="w-full"
                 >
+                  <span className="material-icons text-base mr-2">clear</span>
                   コンテンツをクリア
                 </Button>
               </div>
@@ -123,19 +124,19 @@ export default function WordCounterPage() {
             <Card title="文章作成のコツ" className="mt-6">
               <ul className="space-y-2 text-sm text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">•</span>
+                  <span className="material-icons text-blue-500 text-xs mr-2">check_circle</span>
                   <span>包括的なブログ投稿の場合、1,500-2,500字を目指しましょう</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">•</span>
+                  <span className="material-icons text-blue-500 text-xs mr-2">check_circle</span>
                   <span>読みやすさのため、段落は短く（3-5文）保ちましょう</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">•</span>
+                  <span className="material-icons text-blue-500 text-xs mr-2">check_circle</span>
                   <span>平均読書時間はエンゲージメントの推定に役立ちます</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-blue-500 mr-2">•</span>
+                  <span className="material-icons text-blue-500 text-xs mr-2">check_circle</span>
                   <span>文の長さを変化させてフローと読みやすさを向上させましょう</span>
                 </li>
               </ul>
@@ -177,6 +178,7 @@ export default function WordCounterPage() {
             {/* Reading Time */}
             <Card title="読書時間">
               <div className="text-center">
+                <span className="material-icons text-5xl text-indigo-200 mb-4">schedule</span>
                 <div className="text-4xl font-bold text-indigo-600 mb-2">
                   {stats.readingTime} 分
                 </div>
@@ -223,7 +225,11 @@ export default function WordCounterPage() {
             </Card>
 
             {/* Content Health */}
-            <Card title="コンテンツの品質">
+            <Card>
+              <div className="flex items-center mb-4">
+                <span className="material-icons text-green-500 mr-2">insights</span>
+                <h3 className="text-lg font-medium text-gray-900">コンテンツの品質</h3>
+              </div>
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-600">単語数</span>

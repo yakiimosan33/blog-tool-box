@@ -30,7 +30,7 @@ export const Header: React.FC<HeaderProps> = ({ title = 'Blog Toolbox', subtitle
               onClick={handleBackClick}
               className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 border border-gray-300 rounded-md hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-colors"
             >
-              <span className="mr-2">←</span>
+              <span className="material-icons text-sm mr-2">arrow_back</span>
               トップに戻る
             </button>
           )}
